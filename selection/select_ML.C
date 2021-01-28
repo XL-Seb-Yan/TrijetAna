@@ -63,13 +63,13 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 	float jet_pt_0, jet_eta_0, jet_phi_0, jet_m_0, jet_ptoverm_0;
 	float jet_pt_1, jet_eta_1, jet_phi_1, jet_m_1, jet_ptoverm_1;
 	// Another jet
-	float jet_pt_2, jet_eta_2, jet_phi_2, jet_m_2, dR_jj_j, dEta_jj_j, dPhi_jj_j;
+	float jet_pt_2, jet_eta_2, jet_phi_2, jet_m_2, jet_ptoverm_2, dR_jj_j, dEta_jj_j, dPhi_jj_j;
 	// System
 	float M_jjj, jet_ptoverM_0, jet_ptoverM_1, jet_ptoverM_2, dijet_ptoverM;	   
 	// Dijet in rest frame (use third jet to boost back)
 	float dijet_res_dPt, dijet_res_dPhi, dijet_res_dEta;
 	// GEN matching
-	bool gen_dijet_matched;
+	int gen_dijet_matched;
 	float gen_dijet_matched_mass;
 	// evt info
 	UInt_t run_num;
@@ -81,10 +81,10 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 	TTree *outTree = new TTree("Events","Events");
 	outTree->Branch("dijet_pt",       &dijet_pt);
 	outTree->Branch("dijet_eta",      &dijet_eta);
-	outTree->Branch("dijet_phi,",     &dijet_phi);
+	outTree->Branch("dijet_phi",     &dijet_phi);
 	outTree->Branch("dijet_m",        &dijet_m);
 	outTree->Branch("dR_jj",          &dR_jj);
-	outTree->Branch("dEta_jj_pt",     &dEta_jj);
+	outTree->Branch("dEta_jj",        &dEta_jj);
 	outTree->Branch("dPhi_jj",        &dPhi_jj);
 	outTree->Branch("m_jj",           &m_jj);
 	outTree->Branch("jet_pt_0",       &jet_pt_0);
@@ -101,6 +101,7 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 	outTree->Branch("jet_eta_2",      &jet_eta_2);
 	outTree->Branch("jet_phi_2",      &jet_phi_2);
 	outTree->Branch("jet_m_2",        &jet_m_2);
+	outTree->Branch("jet_ptoverm_2",  &jet_ptoverm_2);
 	outTree->Branch("dR_jj_j",        &dR_jj_j);
 	outTree->Branch("dEta_jj_j",      &dEta_jj_j);
 	outTree->Branch("dPhi_jj_j",      &dPhi_jj_j);
@@ -179,11 +180,11 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 		TTreeReaderArray<Int_t> Jet_jetId = {fReader, "Jet_jetId"};
 		
 		// MC Truth
-		TTreeReaderValue<UInt_t> nGenJet = {fReader, "nGenJet"};
-		TTreeReaderArray<Float_t> GenJet_eta = {fReader, "GenJet_eta"};
-		TTreeReaderArray<Float_t> GenJet_mass = {fReader, "GenJet_mass"};
-		TTreeReaderArray<Float_t> GenJet_phi = {fReader, "GenJet_phi"};
-		TTreeReaderArray<Float_t> GenJet_pt = {fReader, "GenJet_pt"};
+		// TTreeReaderValue<UInt_t> nGenJet = {fReader, "nGenJet"};
+		// TTreeReaderArray<Float_t> GenJet_eta = {fReader, "GenJet_eta"};
+		// TTreeReaderArray<Float_t> GenJet_mass = {fReader, "GenJet_mass"};
+		// TTreeReaderArray<Float_t> GenJet_phi = {fReader, "GenJet_phi"};
+		// TTreeReaderArray<Float_t> GenJet_pt = {fReader, "GenJet_pt"};
 		TTreeReaderValue<UInt_t> nGenPart = {fReader, "nGenPart"};
 		TTreeReaderArray<Float_t> GenPart_eta = {fReader, "GenPart_eta"};
 		TTreeReaderArray<Float_t> GenPart_mass = {fReader, "GenPart_mass"};
@@ -192,7 +193,7 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 		TTreeReaderArray<Int_t> GenPart_genPartIdxMother = {fReader, "GenPart_genPartIdxMother"};
 		TTreeReaderArray<Int_t> GenPart_pdgId = {fReader, "GenPart_pdgId"};
 		TTreeReaderArray<Int_t> GenPart_status = {fReader, "GenPart_status"};
-		TTreeReaderArray<Int_t> Jet_genJetIdx = {fReader, "Jet_genJetIdx"};
+		// TTreeReaderArray<Int_t> Jet_genJetIdx = {fReader, "Jet_genJetIdx"};
 		
 		eventTree = (TTree*)infile->Get("Events");
 		assert(eventTree);
@@ -223,7 +224,7 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 #else
 			passHLT = (*HLT_PFHT1050 || *HLT_AK8PFJet550 || *HLT_AK8PFJet500 || *HLT_PFJet500 || *HLT_CaloJet500_NoJetID || *HLT_CaloJet550_NoJetID);
 #endif
-			// if (!passHLT) continue;
+			if (!passHLT) continue;
 			count1++;
 			// Select trijet
 			h_njet->Fill(*nJet);
@@ -237,7 +238,7 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 				TLorentzVector vj;
 				vj.SetPtEtaPhiM(Jet_pt[i], Jet_eta[i], Jet_phi[i], Jet_mass[i]);
 				trijet.push_back(vj);
-				matched_genjet_index.push_back(Jet_genJetIdx[i]);
+				//matched_genjet_index.push_back(Jet_genJetIdx[i]);
 				if(trijet.size() == 3) break;
 			}
 			
@@ -274,25 +275,9 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 			if(gen_gq_list.size() != 3) 
 				cout<<"Warning: gen_gq_list size is not 3!"<<endl;
 			
-			/*
-			for(UInt_t i=0; i<*nGenJet; i++){
-				if(GenJet_pt[i] < 100) continue;
-				//cout<<"Index: "<<i<<" Pt: "<<GenJet_pt[i]<<" Eta: "<<GenJet_eta[i]<<" Phi: "<<GenJet_phi[i]<<endl;
-				gen_jet_temp.SetPtEtaPhiM(GenJet_pt[i], GenJet_eta[i], GenJet_phi[i], GenJet_mass[i]);
-				for(UInt_t j=1; j<3; j++){
-					if(gen_jet_temp.DeltaR(gen_gq_list[j]) > 0.4) continue;
-					gen_jet_index.push_back(i);
-				}
-			}
-			if(gen_jet_index.size() != 2) 
-				cout<<"Warning: Multiple jets matched to the selected gg(qq) pair! Size of gen_jet_index is: "<<gen_jet_index.size()<<endl;
-			//cout<<"End of GEN dump"<<endl;
-			*/
-			
-			
-			// making dijet from trijet
-			int index_j0[3]={0,1,2}; 
-			int index_j1[3]={1,2,0}; 
+			// making dijet from trijet, make sure j0 is always the leading jet
+			int index_j0[3]={0,1,0}; 
+			int index_j1[3]={1,2,2}; 
 			int index_j2[3]={2,0,1};
 			
 			for(int i=0; i<3; i++){
@@ -327,17 +312,18 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 				m_jj = dijet.M();
 				jet_ptoverm_0 = jet_pt_0 / m_jj;
 				jet_ptoverm_1 = jet_pt_1 / m_jj;
+				jet_ptoverm_2 = jet_pt_2 / m_jj;
 				dR_jj = trijet[j0].DeltaR(trijet[j1]);
 				dEta_jj = abs(jet_eta_0 - jet_eta_1);
 				dPhi_jj = abs(jet_phi_0 - jet_phi_1);
-				dR_jj = (trijet[j0] + trijet[j1]).DeltaR(trijet[j2]);
-				dEta_jj = abs((trijet[j0] + trijet[j1]).Eta() - trijet[j2].Eta());
-				dPhi_jj = abs((trijet[j0] + trijet[j1]).Phi() - trijet[j2].Phi());
+				dR_jj_j = (trijet[j0] + trijet[j1]).DeltaR(trijet[j2]);
+				dEta_jj_j = abs((trijet[j0] + trijet[j1]).Eta() - trijet[j2].Eta());
+				dPhi_jj_j = abs((trijet[j0] + trijet[j1]).Phi() - trijet[j2].Phi());
 				dijet_ptoverM = dijet_pt / M_jjj;
 				
 				TLorentzVector dijet_res_j0, dijet_res_j1;
-				dijet_res_j0.SetPtEtaPhiM(jet_pt_0, jet_eta_0, jet_phi_0, jet_m_0);
-				dijet_res_j1.SetPtEtaPhiM(jet_pt_1, jet_eta_1, jet_phi_1, jet_m_1);
+				dijet_res_j0 = trijet[j0];
+				dijet_res_j1 = trijet[j1];
 				dijet_res_j0.Boost(trijet[j2].BoostVector());
 				dijet_res_j1.Boost(trijet[j2].BoostVector());
 				dijet_res_dPt = abs(dijet_res_j0.Pt() - dijet_res_j1.Pt());
@@ -349,15 +335,27 @@ void select_ML(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 				int is_Matched_j1 = 0;
 				for(int i=1; i<3; i++){
 					if(trijet[j0].DeltaR(gen_gq_list[i]) < 0.4)
-						is_Matched_j0++;
+						is_Matched_j0+=i;
 				}
 				for(int i=1; i<3; i++){
 					if(trijet[j1].DeltaR(gen_gq_list[i]) < 0.4)
-						is_Matched_j1++;
+						is_Matched_j1+=i;
 				}
-				if(is_Matched_j0 > 1) cout<<"Warning: Matching conflict of j0: "<<j0<<endl;
-				if(is_Matched_j1 > 1) cout<<"Warning: Matching conflict of j1: "<<j1<<endl;
-				gen_dijet_matched = is_Matched_j0 && is_Matched_j1;
+				// if(is_Matched_j0 > 2) cout<<"Warning: j0 matched to both GEN g(q)s, j0 is: "<<j0<<endl;
+				// if(is_Matched_j1 > 2) cout<<"Warning: j1 matched to both GEN g(q)s: j1 is: "<<j1<<endl;
+				gen_dijet_matched = (is_Matched_j0 > 0 && is_Matched_j0 < 3) &&  (is_Matched_j1 > 0 && is_Matched_j1 < 3) && (is_Matched_j0 != is_Matched_j1);
+				// if(gen_dijet_matched && (dijet_m < 700 || dijet_m > 1600)){
+					// for(UInt_t i=0; i<*nGenPart; i++){
+						// if(GenPart_pdgId[i] != 21 || GenPart_status[i] != 23) continue;// This selects the 3 gluons we need
+						// cout<<"Index: "<<i<<" Pt: "<<GenPart_pt[i]<<" Eta: "<<GenPart_eta[i]<<" Phi: "<<GenPart_phi[i]<<" Mass: "<<GenPart_mass[i]<<" ID: "<<GenPart_pdgId[i]<<" Status: "<<GenPart_status[i]<<" Momindex: "<<GenPart_genPartIdxMother[i]<<endl;
+					// }
+					// cout<<"RECO jet 0 Pt: "<<jet_pt_0<<" Eta: "<<jet_eta_0<<" Phi: "<<jet_phi_0<<endl;
+					// cout<<"RECO jet 1 Pt: "<<jet_pt_1<<" Eta: "<<jet_eta_1<<" Phi: "<<jet_phi_1<<endl;
+					// cout<<"Dijet mass: "<<m_jj<<endl;
+					// cout<<"Delta R for j0: "<<trijet[j0].DeltaR(gen_gq_list[1])<<" "<<trijet[j0].DeltaR(gen_gq_list[2])<<endl;
+					// cout<<"Delta R for j1: "<<trijet[j1].DeltaR(gen_gq_list[1])<<" "<<trijet[j1].DeltaR(gen_gq_list[2])<<endl;
+					// cout<<"---------------------------------------------------------"<<endl;
+				// }
 				outTree->Fill();
 			}
 			//cout<<"------------------------"<<endl;

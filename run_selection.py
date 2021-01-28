@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     if args.test:
         year = "2017"
-        samples2process = ["Res1ToRes2GluTo3Glu_M1-2000_R-0p5"]
+        samples2process = ["Res1ToRes2GluTo3Glu_M1-3000_R-0p5"]
         isMC = True
     elif args.allsamples:
         year = args.year
