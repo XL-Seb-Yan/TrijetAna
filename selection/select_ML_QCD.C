@@ -63,7 +63,7 @@ void select_ML_QCD(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 	// Another jet
 	float jet_pt_2, jet_eta_2, jet_phi_2, jet_m_2, jet_ptoverm_2, dR_jj_j, dEta_jj_j, dPhi_jj_j;
 	// System
-	float M_jjj, jet_ptoverM_0, jet_ptoverM_1, jet_ptoverM_2, dijet_ptoverM;	   
+	float M_jjj, jet_ptoverM_0, jet_ptoverM_1, jet_ptoverM_2, dijet_ptoverM, dR_j0j2, dEta_j0j2, dPhi_j0j2, dR_j1j2, dEta_j1j2, dPhi_j1j2;	   
 	// Dijet in rest frame (use third jet to boost back)
 	float dijet_res_dPt, dijet_res_dPhi, dijet_res_dEta;
 	// GEN matching
@@ -72,7 +72,7 @@ void select_ML_QCD(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 	// evt info
 	UInt_t run_num;
 	ULong64_t evt_num;
-	int lumi_block;  		  
+	int lumi_block;  				  
 	
 	TString outfilename = outputDir + TString("/") + samplename + TString("_ML_study.root");
 	TFile *outFile = new TFile(outfilename,"RECREATE"); 
@@ -87,6 +87,12 @@ void select_ML_QCD(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 	outTree->Branch("jet_pt_0",       &jet_pt_0);
 	outTree->Branch("jet_eta_0",      &jet_eta_0);
 	outTree->Branch("jet_phi_0",      &jet_phi_0);
+	outTree->Branch("dR_j0j2",        &dR_j0j2);
+	outTree->Branch("dEta_j0j2",      &dEta_j0j2);
+	outTree->Branch("dPhi_j0j2",      &dPhi_j0j2);
+	outTree->Branch("dR_j1j2",        &dR_j1j2);
+	outTree->Branch("dEta_j1j2",      &dEta_j1j2);
+	outTree->Branch("dPhi_j1j2",      &dPhi_j1j2);
 	outTree->Branch("jet_m_0",        &jet_m_0);
 	outTree->Branch("jet_ptoverm_0",  &jet_ptoverm_0);
 	outTree->Branch("jet_pt_1",       &jet_pt_1);
@@ -285,6 +291,13 @@ void select_ML_QCD(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5",
 				dEta_jj_j = abs((j_sel_arr[j0] + j_sel_arr[j1]).Eta() - j_sel_arr[j2].Eta());
 				dPhi_jj_j = abs((j_sel_arr[j0] + j_sel_arr[j1]).Phi() - j_sel_arr[j2].Phi()) <= TMath::Pi() ? abs((j_sel_arr[j0] + j_sel_arr[j1]).Phi() - j_sel_arr[j2].Phi()) : 2*TMath::Pi()-abs((j_sel_arr[j0] + j_sel_arr[j1]).Phi() - j_sel_arr[j2].Phi());
 				dijet_ptoverM = dijet_pt / M_jjj;
+				
+				dR_j0j2 = j_sel_arr[j0].DeltaR(j_sel_arr[j2]);
+				dEta_j0j2 = abs(jet_eta_0 - jet_eta_2);
+				dPhi_j0j2 = abs(jet_phi_0 - jet_phi_2) <= TMath::Pi() ? abs(jet_phi_0 - jet_phi_2) : 2*TMath::Pi()-abs(jet_phi_0 - jet_phi_2);
+				dR_j1j2 = j_sel_arr[j1].DeltaR(j_sel_arr[j2]);
+				dEta_j1j2 = abs(jet_eta_1 - jet_eta_2);
+				dPhi_j1j2 = abs(jet_phi_1 - jet_phi_2) <= TMath::Pi() ? abs(jet_phi_1 - jet_phi_2) : 2*TMath::Pi()-abs(jet_phi_1 - jet_phi_2);
 				
 				TLorentzVector dijet_res_j0, dijet_res_j1;
 				dijet_res_j0 = j_sel_arr[j0];

@@ -15,6 +15,7 @@ from functools import partial
 import re
 import numpy as np
 from IPython.display import display
+import ROOT
 
 if __name__ == "__main__":
 
@@ -88,22 +89,36 @@ if __name__ == "__main__":
     for key in subsample_files.keys():
         size = len(subsample_files[key])
         print(f"For {key}, {size} file(s) will be processed")
-        
+    
     for sample, files in subsample_files.items():
         nEvents = -1
-        if "QCD_Pt_1800to2400" in sample:
-            nEvents = 15000
-        if "QCD_Pt_2400to3200" in sample:
-            nEvents = 1500
-        if "QCD_Pt_3200toInf" in sample:
-            nEvents = 500
-        print("Processing QCD samples from which we only need a small amount of events!")
+        # if "QCD_Pt_1800to2400" in sample:
+            # nEvents = 15000
+            # print("Processing QCD samples from which we only need a small amount of events!")
+        # if "QCD_Pt_2400to3200" in sample:
+            # nEvents = 1500
+            # print("Processing QCD samples from which we only need a small amount of events!")
+        # if "QCD_Pt_3200toInf" in sample:
+            # nEvents = 500
+            # print("Processing QCD samples from which we only need a small amount of events!")
         print("Events to be processed: ", nEvents)
-        
+        total_events = 0
+        trig_events = 0
+        sel_events = 0
         with open(f"{sample}.txt", 'w') as f:
             for item in files:
                 f.write(f"{item}\n")
+                fdir = item.split("nanoskim")[0]
+                filei = item.split("nanoskim")[1]
+                tfile = ROOT.TFile.Open(fdir+"hists"+filei, "READ")
+                ntott = tfile.Get("h_ProcessedEvents")
+                total_events += ntott.GetEntries()
+                ntrigt = tfile.Get("h_TriggeredEvents")
+                trig_events += ntrigt.GetEntries()
+                nselt = tfile.Get("h_SelectedEvents")
+                sel_events += nselt.GetEntries()
         f.close()
+        print(sample, total_events, trig_events, sel_events)
         
         # R1M_str = sample.split("_")[1].split("-")[1]
         # rho_str = sample.split("_")[2].split("p")[1]

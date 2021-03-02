@@ -1,0 +1,1742 @@
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-500_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p1/201215_173721/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p1/201215_173721/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p1/201215_173721/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+45791 232 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   2.05 seconds Cpu Time =   1.87 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-500_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p2/201215_173921/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p2/201215_173921/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p2/201215_173921/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p2/201215_173921/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p2/201215_173921/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p2/201215_173921/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p2/201215_173921/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+46528 164 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   2.15 seconds Cpu Time =   2.01 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-500_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p3/201215_174120/0000/nanoskim_1.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+47366 179 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   2.16 seconds Cpu Time =   2.02 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-500_R-0p5","outputs",-1,2017)...
+begin loop over files
+0 0 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   0.47 seconds Cpu Time =   0.37 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-500_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p7/201215_220823/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p7/201215_220823/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p7/201215_220823/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p7/201215_220823/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+48371 229 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   2.25 seconds Cpu Time =   2.10 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-500_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p9/201215_221000/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p9/201215_221000/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p9/201215_221000/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p9/201215_221000/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p9/201215_221000/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-500_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-500_R-0p9/201215_221000/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+48099 941 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   2.35 seconds Cpu Time =   2.19 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-750_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p1/201215_223057/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p1/201215_223057/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p1/201215_223057/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p1/201215_223057/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p1/201215_223057/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+48250 747 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   6.80 seconds Cpu Time =   2.30 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-750_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p2/201215_223234/0000/nanoskim_1.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p2/201215_223234/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+48860 665 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  10.41 seconds Cpu Time =   2.34 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-750_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p3/201215_223408/0000/nanoskim_1.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+49355 597 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   5.24 seconds Cpu Time =   2.43 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-750_R-0p5","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p5/201215_223543/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p5/201215_223543/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p5/201215_223543/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p5/201215_223543/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p5/201215_223543/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+49628 591 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   5.97 seconds Cpu Time =   2.54 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-750_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p7/201215_223718/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p7/201215_223718/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p7/201215_223718/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p7/201215_223718/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p7/201215_223718/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p7/201215_223718/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+49585 700 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   7.28 seconds Cpu Time =   2.54 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-750_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p9/201215_223854/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p9/201215_223854/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p9/201215_223854/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-750_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-750_R-0p9/201215_223854/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49539 2284 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  10.55 seconds Cpu Time =   2.58 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-1000_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p1/201215_154545/0000/nanoskim_1.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+49061 4663 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   5.85 seconds Cpu Time =   2.55 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-1000_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p2/201215_154822/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p2/201215_154822/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p2/201215_154822/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p2/201215_154822/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p2/201215_154822/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p2/201215_154822/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p2/201215_154822/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p2/201215_154822/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49543 3203 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   8.90 seconds Cpu Time =   2.83 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-1000_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p3/201215_155022/0000/nanoskim_1.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p3/201215_155022/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49813 2498 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  24.60 seconds Cpu Time =   2.80 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-1000_R-0p5","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p5/201215_155225/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p5/201215_155225/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p5/201215_155225/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49900 2236 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  15.85 seconds Cpu Time =   2.87 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-1000_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p7/201215_155426/0000/nanoskim_1.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+49880 2559 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   7.85 seconds Cpu Time =   2.78 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-1000_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-1000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-1000_R-0p9/201215_155629/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+46846 5625 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =   8.34 seconds Cpu Time =   3.00 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-2000_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p1/201215_155829/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p1/201215_155829/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p1/201215_155829/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49834 40570 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  15.57 seconds Cpu Time =   5.23 seconds
+Please check samples to process:  ['Res1ToRes2GluTo3Glu_M1-500_R-0p1', 'Res1ToRes2GluTo3Glu_M1-500_R-0p2', 'Res1ToRes2GluTo3Glu_M1-500_R-0p3', 'Res1ToRes2GluTo3Glu_M1-500_R-0p5', 'Res1ToRes2GluTo3Glu_M1-500_R-0p7', 'Res1ToRes2GluTo3Glu_M1-500_R-0p9', 'Res1ToRes2GluTo3Glu_M1-750_R-0p1', 'Res1ToRes2GluTo3Glu_M1-750_R-0p2', 'Res1ToRes2GluTo3Glu_M1-750_R-0p3', 'Res1ToRes2GluTo3Glu_M1-750_R-0p5', 'Res1ToRes2GluTo3Glu_M1-750_R-0p7', 'Res1ToRes2GluTo3Glu_M1-750_R-0p9', 'Res1ToRes2GluTo3Glu_M1-1000_R-0p1', 'Res1ToRes2GluTo3Glu_M1-1000_R-0p2', 'Res1ToRes2GluTo3Glu_M1-1000_R-0p3', 'Res1ToRes2GluTo3Glu_M1-1000_R-0p5', 'Res1ToRes2GluTo3Glu_M1-1000_R-0p7', 'Res1ToRes2GluTo3Glu_M1-1000_R-0p9', 'Res1ToRes2GluTo3Glu_M1-2000_R-0p1', 'Res1ToRes2GluTo3Glu_M1-2000_R-0p2', 'Res1ToRes2GluTo3Glu_M1-2000_R-0p3', 'Res1ToRes2GluTo3Glu_M1-2000_R-0p5', 'Res1ToRes2GluTo3Glu_M1-2000_R-0p7', 'Res1ToRes2GluTo3Glu_M1-2000_R-0p9', 'Res1ToRes2GluTo3Glu_M1-3000_R-0p1', 'Res1ToRes2GluTo3Glu_M1-3000_R-0p2', 'Res1ToRes2GluTo3Glu_M1-3000_R-0p3', 'Res1ToRes2GluTo3Glu_M1-3000_R-0p5', 'Res1ToRes2GluTo3Glu_M1-3000_R-0p7', 'Res1ToRes2GluTo3Glu_M1-3000_R-0p9', 'Res1ToRes2GluTo3Glu_M1-4000_R-0p1', 'Res1ToRes2GluTo3Glu_M1-4000_R-0p2', 'Res1ToRes2GluTo3Glu_M1-4000_R-0p3', 'Res1ToRes2GluTo3Glu_M1-4000_R-0p5', 'Res1ToRes2GluTo3Glu_M1-4000_R-0p7', 'Res1ToRes2GluTo3Glu_M1-4000_R-0p9', 'Res1ToRes2GluTo3Glu_M1-5000_R-0p1', 'Res1ToRes2GluTo3Glu_M1-5000_R-0p2', 'Res1ToRes2GluTo3Glu_M1-5000_R-0p3', 'Res1ToRes2GluTo3Glu_M1-5000_R-0p5', 'Res1ToRes2GluTo3Glu_M1-5000_R-0p7', 'Res1ToRes2GluTo3Glu_M1-5000_R-0p9', 'Res1ToRes2GluTo3Glu_M1-6000_R-0p1', 'Res1ToRes2GluTo3Glu_M1-6000_R-0p2', 'Res1ToRes2GluTo3Glu_M1-6000_R-0p3', 'Res1ToRes2GluTo3Glu_M1-6000_R-0p5', 'Res1ToRes2GluTo3Glu_M1-6000_R-0p7', 'Res1ToRes2GluTo3Glu_M1-6000_R-0p9', 'Res1ToRes2GluTo3Glu_M1-7000_R-0p1', 'Res1ToRes2GluTo3Glu_M1-7000_R-0p2', 'Res1ToRes2GluTo3Glu_M1-7000_R-0p3', 'Res1ToRes2GluTo3Glu_M1-7000_R-0p5', 'Res1ToRes2GluTo3Glu_M1-7000_R-0p7', 'Res1ToRes2GluTo3Glu_M1-7000_R-0p9', 'Res1ToRes2GluTo3Glu_M1-8000_R-0p1', 'Res1ToRes2GluTo3Glu_M1-8000_R-0p2', 'Res1ToRes2GluTo3Glu_M1-8000_R-0p3', 'Res1ToRes2GluTo3Glu_M1-8000_R-0p5', 'Res1ToRes2GluTo3Glu_M1-8000_R-0p7', 'Res1ToRes2GluTo3Glu_M1-8000_R-0p9']
+For Res1ToRes2GluTo3Glu_M1-500_R-0p1, 3 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-500_R-0p2, 7 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-500_R-0p3, 1 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-500_R-0p5, 0 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-500_R-0p7, 4 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-500_R-0p9, 6 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-750_R-0p1, 5 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-750_R-0p2, 2 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-750_R-0p3, 1 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-750_R-0p5, 5 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-750_R-0p7, 6 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-750_R-0p9, 4 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-1000_R-0p1, 1 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-1000_R-0p2, 8 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-1000_R-0p3, 2 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-1000_R-0p5, 3 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-1000_R-0p7, 1 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-1000_R-0p9, 10 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-2000_R-0p1, 3 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-2000_R-0p2, 7 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-2000_R-0p3, 4 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-2000_R-0p5, 9 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-2000_R-0p7, 5 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-2000_R-0p9, 4 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-3000_R-0p1, 9 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-3000_R-0p2, 11 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-3000_R-0p3, 6 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-3000_R-0p5, 7 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-3000_R-0p7, 8 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-3000_R-0p9, 4 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-4000_R-0p1, 1 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-4000_R-0p2, 7 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-4000_R-0p3, 4 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-4000_R-0p5, 9 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-4000_R-0p7, 4 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-4000_R-0p9, 6 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-5000_R-0p1, 11 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-5000_R-0p2, 8 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-5000_R-0p3, 8 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-5000_R-0p5, 4 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-5000_R-0p7, 10 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-5000_R-0p9, 11 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-6000_R-0p1, 7 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-6000_R-0p2, 7 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-6000_R-0p3, 10 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-6000_R-0p5, 6 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-6000_R-0p7, 8 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-6000_R-0p9, 9 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-7000_R-0p1, 8 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-7000_R-0p2, 10 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-7000_R-0p3, 10 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-7000_R-0p5, 12 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-7000_R-0p7, 9 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-7000_R-0p9, 9 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-8000_R-0p1, 10 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-8000_R-0p2, 9 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-8000_R-0p3, 14 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-8000_R-0p5, 7 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-8000_R-0p7, 10 file(s) will be processed
+For Res1ToRes2GluTo3Glu_M1-8000_R-0p9, 9 file(s) will be processed
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-2000_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p2/201215_160026/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p2/201215_160026/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p2/201215_160026/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p2/201215_160026/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p2/201215_160026/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p2/201215_160026/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p2/201215_160026/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49960 40653 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  14.44 seconds Cpu Time =   5.77 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-2000_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p3/201218_231636/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p3/201218_231636/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p3/201218_231636/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p3/201218_231636/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49988 41450 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  12.29 seconds Cpu Time =   6.20 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-2000_R-0p5","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p5/201215_165941/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p5/201215_165941/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p5/201215_165941/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p5/201215_165941/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p5/201215_165941/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p5/201215_165941/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p5/201215_165941/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p5/201215_165941/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p5/201215_165941/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+47990 42239 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  11.27 seconds Cpu Time =   6.25 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-2000_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p7/201215_170130/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p7/201215_170130/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p7/201215_170130/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p7/201215_170130/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p7/201215_170130/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+49990 44850 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  16.06 seconds Cpu Time =   6.63 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-2000_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p9/201215_170314/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p9/201215_170314/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p9/201215_170314/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-2000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-2000_R-0p9/201215_170314/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49982 44219 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  10.68 seconds Cpu Time =   6.31 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-3000_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p1/201215_170459/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p1/201215_170459/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p1/201215_170459/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p1/201215_170459/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p1/201215_170459/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p1/201215_170459/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p1/201215_170459/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p1/201215_170459/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p1/201215_170459/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49928 46159 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  13.13 seconds Cpu Time =   6.69 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-3000_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_11.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p2/201215_170647/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49989 46987 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  13.04 seconds Cpu Time =   7.59 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-3000_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p3/201215_170831/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p3/201215_170831/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p3/201215_170831/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p3/201215_170831/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p3/201215_170831/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p3/201215_170831/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+49999 48017 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  14.74 seconds Cpu Time =   8.19 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-3000_R-0p5","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p5/201215_171014/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p5/201215_171014/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p5/201215_171014/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p5/201215_171014/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p5/201215_171014/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p5/201215_171014/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p5/201215_171014/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49995 49181 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  12.40 seconds Cpu Time =   8.45 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-3000_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p7/201215_171235/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p7/201215_171235/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p7/201215_171235/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p7/201215_171235/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p7/201215_171235/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p7/201215_171235/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p7/201215_171235/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p7/201215_171235/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49998 49223 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  14.08 seconds Cpu Time =   8.40 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-3000_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p9/201215_171415/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p9/201215_171415/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p9/201215_171415/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-3000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-3000_R-0p9/201215_171415/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49991 48341 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  11.10 seconds Cpu Time =   7.94 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-4000_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p1/201215_171556/0000/nanoskim_1.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+49958 47745 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  11.68 seconds Cpu Time =   7.27 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-4000_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p2/201215_171739/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p2/201215_171739/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p2/201215_171739/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p2/201215_171739/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p2/201215_171739/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p2/201215_171739/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p2/201215_171739/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49995 48700 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  13.46 seconds Cpu Time =   8.34 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-4000_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p3/201215_171921/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p3/201215_171921/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p3/201215_171921/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p3/201215_171921/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49999 49426 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  13.82 seconds Cpu Time =   8.70 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-4000_R-0p5","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p5/201215_172104/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p5/201215_172104/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p5/201215_172104/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p5/201215_172104/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p5/201215_172104/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p5/201215_172104/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p5/201215_172104/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p5/201215_172104/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p5/201215_172104/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49998 49746 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  13.37 seconds Cpu Time =   9.32 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-4000_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p7/201215_172245/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p7/201215_172245/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p7/201215_172245/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p7/201215_172245/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49998 49801 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  12.73 seconds Cpu Time =   9.08 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-4000_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p9/201215_172427/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p9/201215_172427/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p9/201215_172427/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p9/201215_172427/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p9/201215_172427/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-4000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-4000_R-0p9/201215_172427/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+49989 49356 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  16.10 seconds Cpu Time =   8.50 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-5000_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_11.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p1/201215_172610/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49964 48320 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  14.48 seconds Cpu Time =   7.78 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-5000_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p2/201215_172755/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p2/201215_172755/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p2/201215_172755/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p2/201215_172755/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p2/201215_172755/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p2/201215_172755/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p2/201215_172755/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p2/201215_172755/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49998 49375 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  16.83 seconds Cpu Time =   9.05 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-5000_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p3/201215_172939/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p3/201215_172939/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p3/201215_172939/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p3/201215_172939/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p3/201215_172939/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p3/201215_172939/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p3/201215_172939/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p3/201215_172939/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49997 49781 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  15.89 seconds Cpu Time =   9.85 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-5000_R-0p5","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p5/201215_173124/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p5/201215_173124/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p5/201215_173124/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p5/201215_173124/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+49999 49919 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  14.90 seconds Cpu Time =   9.60 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-5000_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p7/201215_173306/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49998 49922 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  17.46 seconds Cpu Time =   9.80 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-5000_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_11.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-5000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-5000_R-0p9/201215_173448/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49998 49703 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  18.52 seconds Cpu Time =   9.61 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-6000_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p1/201215_221150/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p1/201215_221150/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p1/201215_221150/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p1/201215_221150/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p1/201215_221150/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p1/201215_221150/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p1/201215_221150/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49977 48777 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  13.47 seconds Cpu Time =   8.53 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-6000_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p2/201215_221325/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p2/201215_221325/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p2/201215_221325/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p2/201215_221325/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p2/201215_221325/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p2/201215_221325/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p2/201215_221325/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49995 49700 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  16.26 seconds Cpu Time =   9.66 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-6000_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p3/201215_221457/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+41998 41920 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  16.79 seconds Cpu Time =   8.53 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-6000_R-0p5","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p5/201215_221629/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p5/201215_221629/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p5/201215_221629/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p5/201215_221629/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p5/201215_221629/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p5/201215_221629/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+49996 49961 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  19.65 seconds Cpu Time =  10.24 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-6000_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p7/201215_221802/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p7/201215_221802/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p7/201215_221802/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p7/201215_221802/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p7/201215_221802/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p7/201215_221802/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p7/201215_221802/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p7/201215_221802/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49998 49964 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  18.14 seconds Cpu Time =  10.23 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-6000_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p9/201215_221940/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p9/201215_221940/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p9/201215_221940/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p9/201215_221940/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p9/201215_221940/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p9/201215_221940/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p9/201215_221940/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p9/201215_221940/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-6000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-6000_R-0p9/201215_221940/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49996 49885 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  18.71 seconds Cpu Time =   9.93 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-7000_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p1/201215_222116/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p1/201215_222116/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p1/201215_222116/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p1/201215_222116/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p1/201215_222116/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p1/201215_222116/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p1/201215_222116/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p1/201215_222116/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49972 48962 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  16.88 seconds Cpu Time =   8.71 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-7000_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p2/201215_222252/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49998 49867 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  18.31 seconds Cpu Time =  10.03 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-7000_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p3/201215_222427/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49998 49937 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  19.04 seconds Cpu Time =  10.52 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-7000_R-0p5","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_12.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_11.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p5/201215_222602/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49999 49985 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  18.54 seconds Cpu Time =  10.75 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-7000_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p7/201215_222739/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p7/201215_222739/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p7/201215_222739/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p7/201215_222739/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p7/201215_222739/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p7/201215_222739/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p7/201215_222739/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p7/201215_222739/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p7/201215_222739/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+46997 46986 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  28.34 seconds Cpu Time =   9.87 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-7000_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p9/201215_222922/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p9/201215_222922/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p9/201215_222922/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p9/201215_222922/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p9/201215_222922/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p9/201215_222922/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p9/201215_222922/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p9/201215_222922/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-7000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-7000_R-0p9/201215_222922/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+47998 47924 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  20.82 seconds Cpu Time =   9.72 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-8000_R-0p1","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p1_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p1/201215_224028/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+47979 46744 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  15.37 seconds Cpu Time =   8.46 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-8000_R-0p2","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p2/201215_224206/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p2/201215_224206/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p2/201215_224206/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p2/201215_224206/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p2/201215_224206/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p2/201215_224206/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p2/201215_224206/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p2/201215_224206/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p2_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p2/201215_224206/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49997 49902 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  20.98 seconds Cpu Time =  10.04 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-8000_R-0p3","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_12.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_13.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_14.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_11.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p3_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p3/201215_224343/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+50000 49953 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  21.01 seconds Cpu Time =  10.74 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-8000_R-0p5","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p5/201216_061953/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p5/201216_061953/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p5/201216_061953/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p5/201216_061953/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p5/201216_061953/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p5/201216_061953/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p5_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p5/201216_061953/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+50000 49990 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  37.07 seconds Cpu Time =  10.85 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-8000_R-0p7","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_10.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p7_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p7/201216_062131/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+50000 49983 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  21.10 seconds Cpu Time =  10.57 seconds
+
+Processing selection/select_ML_Fullmatch.C+("Res1ToRes2GluTo3Glu_M1-8000_R-0p9","outputs",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p9/201216_062306/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p9/201216_062306/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p9/201216_062306/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p9/201216_062306/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p9/201216_062306/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p9/201216_062306/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p9/201216_062306/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p9/201216_062306/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/Res1ToRes2GluTo3Glu_2017/Res1ToRes2GluTo3Glu_M1-8000_R-0p9_TuneCP5_13TeV-madgraph-pythia8/Res1ToRes2GluTo3Glu_M1-8000_R-0p9/201216_062306/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+49992 49952 0
+Info in <TCanvas::Print>: png file dijet_m.png has been created
+Info in <TCanvas::Print>: png file njet.png has been created
+Info in <TCanvas::Print>: png file dR.png has been created
+selectTrijet: Real Time =  26.50 seconds Cpu Time =  10.30 seconds
+
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
+Processing QCD samples from which we only need a small amount of events!
+Events to be processed:  -1
