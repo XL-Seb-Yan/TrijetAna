@@ -1,1 +1,0 @@
-/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1000to1400_TuneCP5_13TeV_pythia8/QCD_Pt_1000to1400/201215_061743/0000/nanoskim_8.root

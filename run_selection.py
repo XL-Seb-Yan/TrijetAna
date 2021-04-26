@@ -124,7 +124,7 @@ if __name__ == "__main__":
         # rho_str = sample.split("_")[2].split("p")[1]
         # rho = float(rho_str) * 0.1
         if "QCD" in sample:
-            os.system(r"root -l -q -b -x selection/select_ML_QCD.C+\(\"" + sample + r"\"," + r"\"outputs\"," + str(nEvents) + "," + str(year) + "\)")
+            os.system(r"root -l -q -b -x selection/3_jets/select_ML_QCD.C+\(\"" + sample + r"\"," + r"\"outputs_temp\"," + str(nEvents) + "," + str(year) + "\)")
         else:
-            os.system(r"root -l -q -b -x selection/select_ML_Fullmatch.C+\(\"" + sample + r"\"," + r"\"outputs\"," + str(nEvents) + "," + str(year) + "\)")
+            os.system(r"root -l -q -b -x selection/3_jets/select_ML_Fullmatch.C+\(\"" + sample + r"\"," + r"\"outputs_temp\"," + str(nEvents) + "," + str(year) + "\)")
         os.system(f"rm {sample}.txt")

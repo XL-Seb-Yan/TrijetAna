@@ -1,1 +1,1 @@
-Analizer for trijet search
+Analizer for trijet search BDT
