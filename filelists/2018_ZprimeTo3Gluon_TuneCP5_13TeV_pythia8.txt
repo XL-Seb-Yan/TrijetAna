@@ -1,0 +1,3 @@
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_10/ZprimeTo3Gluon_2018/ZprimeTo3Gluon_TuneCP5_13TeV_pythia8/ZprimeTo3Gluon_scan_2018/210630_160348/0000/nanoskim_3.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_10/ZprimeTo3Gluon_2018/ZprimeTo3Gluon_TuneCP5_13TeV_pythia8/ZprimeTo3Gluon_scan_2018/210630_160348/0000/nanoskim_1.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_10/ZprimeTo3Gluon_2018/ZprimeTo3Gluon_TuneCP5_13TeV_pythia8/ZprimeTo3Gluon_scan_2018/210630_160348/0000/nanoskim_2.root

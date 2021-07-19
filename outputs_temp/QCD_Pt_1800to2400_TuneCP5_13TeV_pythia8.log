@@ -1,0 +1,80 @@
+
+Processing selection/3_jets/select_ML_QCD.C+("QCD_Pt_1800to2400_TuneCP5_13TeV_pythia8","outputs_temp",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1800to2400_TuneCP5_13TeV_pythia8/QCD_Pt_1800to2400/201215_062323/0000/nanoskim_3.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0583612
+Processing: 0.116722
+Processing: 0.175084
+Processing: 0.233445
+Processing: 0.291806
+Processing: 0.350167
+Processing: 0.408528
+Processing: 0.466889
+Processing: 0.525251
+Processing: 0.583612
+Processing: 0.641973
+Processing: 0.700334
+Processing: 0.758695
+Processing: 0.817056
+Processing: 0.875418
+Processing: 0.933779
+Processing: 0.99214
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1800to2400_TuneCP5_13TeV_pythia8/QCD_Pt_1800to2400/201215_062323/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.109937
+Processing: 0.219874
+Processing: 0.329812
+Processing: 0.439749
+Processing: 0.549686
+Processing: 0.659623
+Processing: 0.769561
+Processing: 0.879498
+Processing: 0.989435
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1800to2400_TuneCP5_13TeV_pythia8/QCD_Pt_1800to2400/201215_062323/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0615267
+Processing: 0.123053
+Processing: 0.18458
+Processing: 0.246107
+Processing: 0.307634
+Processing: 0.36916
+Processing: 0.430687
+Processing: 0.492214
+Processing: 0.553741
+Processing: 0.615267
+Processing: 0.676794
+Processing: 0.738321
+Processing: 0.799847
+Processing: 0.861374
+Processing: 0.922901
+Processing: 0.984428
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1800to2400_TuneCP5_13TeV_pythia8/QCD_Pt_1800to2400/201215_062323/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0625198
+Processing: 0.12504
+Processing: 0.18756
+Processing: 0.250079
+Processing: 0.312599
+Processing: 0.375119
+Processing: 0.437639
+Processing: 0.500159
+Processing: 0.562679
+Processing: 0.625198
+Processing: 0.687718
+Processing: 0.750238
+Processing: 0.812758
+Processing: 0.875278
+Processing: 0.937798
+2923940 2923935 1527548 0 0
+Info in <TCanvas::Print>: png file njet.png has been created
+selectTrijet: Real Time =  89.67 seconds Cpu Time =  48.62 seconds

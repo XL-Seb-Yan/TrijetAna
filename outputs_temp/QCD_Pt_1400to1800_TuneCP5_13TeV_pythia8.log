@@ -1,0 +1,146 @@
+
+Processing selection/3_jets/select_ML_QCD.C+("QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8","outputs_temp",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800_ext1/201215_062121/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.064433
+Processing: 0.128866
+Processing: 0.193299
+Processing: 0.257732
+Processing: 0.322165
+Processing: 0.386598
+Processing: 0.451031
+Processing: 0.515464
+Processing: 0.579897
+Processing: 0.64433
+Processing: 0.708763
+Processing: 0.773196
+Processing: 0.837629
+Processing: 0.902062
+Processing: 0.966495
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800_ext1/201215_062121/0000/nanoskim_3.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0636132
+Processing: 0.127226
+Processing: 0.19084
+Processing: 0.254453
+Processing: 0.318066
+Processing: 0.381679
+Processing: 0.445293
+Processing: 0.508906
+Processing: 0.572519
+Processing: 0.636132
+Processing: 0.699746
+Processing: 0.763359
+Processing: 0.826972
+Processing: 0.890585
+Processing: 0.954198
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800_ext1/201215_062121/0000/nanoskim_1.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.292398
+Processing: 0.584795
+Processing: 0.877193
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800_ext1/201215_062121/0000/nanoskim_4.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0588235
+Processing: 0.117647
+Processing: 0.176471
+Processing: 0.235294
+Processing: 0.294118
+Processing: 0.352941
+Processing: 0.411765
+Processing: 0.470588
+Processing: 0.529412
+Processing: 0.588235
+Processing: 0.647059
+Processing: 0.705882
+Processing: 0.764706
+Processing: 0.823529
+Processing: 0.882353
+Processing: 0.941176
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800_ext1/201215_062121/0000/nanoskim_2.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0813008
+Processing: 0.162602
+Processing: 0.243902
+Processing: 0.325203
+Processing: 0.406504
+Processing: 0.487805
+Processing: 0.569106
+Processing: 0.650406
+Processing: 0.731707
+Processing: 0.813008
+Processing: 0.894309
+Processing: 0.97561
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800_ext1/201215_062121/0000/nanoskim_5.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0719424
+Processing: 0.143885
+Processing: 0.215827
+Processing: 0.28777
+Processing: 0.359712
+Processing: 0.431655
+Processing: 0.503597
+Processing: 0.57554
+Processing: 0.647482
+Processing: 0.719424
+Processing: 0.791367
+Processing: 0.863309
+Processing: 0.935252
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800_ext1/201215_062121/0000/nanoskim_9.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0571429
+Processing: 0.114286
+Processing: 0.171429
+Processing: 0.228572
+Processing: 0.285715
+Processing: 0.342858
+Processing: 0.4
+Processing: 0.457143
+Processing: 0.514286
+Processing: 0.571429
+Processing: 0.628572
+Processing: 0.685715
+Processing: 0.742858
+Processing: 0.800001
+Processing: 0.857144
+Processing: 0.914287
+Processing: 0.97143
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800_ext1/201215_062121/0000/nanoskim_6.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.454545
+Processing: 0.909091
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800_ext1/201215_062121/0000/nanoskim_7.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0632911
+Processing: 0.126582
+Processing: 0.189873
+Processing: 0.253165
+Processing: 0.316456
+Processing: 0.379747
+Processing: 0.443038
+Processing: 0.506329
+Processing: 0.56962
+Processing: 0.632911
+Processing: 0.696203
+Processing: 0.759494
+Processing: 0.822785
+Processing: 0.886076
+Processing: 0.949367
+5667999 5667943 3001431 0 0
+Info in <TCanvas::Print>: png file njet.png has been created
+selectTrijet: Real Time = 572.08 seconds Cpu Time =  96.24 seconds

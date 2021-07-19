@@ -1,0 +1,57 @@
+
+Processing selection/3_jets/select_ML_QCD.C+("QCD_Pt_800to1000_TuneCP5_13TeV_pythia8","outputs_temp",-1,2017)...
+begin loop over files
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_800to1000_TuneCP5_13TeV_pythia8/QCD_Pt_800to1000_ext1/201215_152048/0000/nanoskim_8.root
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.189399
+Processing: 0.378798
+Processing: 0.568197
+Processing: 0.757596
+Processing: 0.946995
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_800to1000_TuneCP5_13TeV_pythia8/QCD_Pt_800to1000_ext1/201215_152048/0000/nanoskim_32.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0635339
+Processing: 0.127068
+Processing: 0.190602
+Processing: 0.254135
+Processing: 0.317669
+Processing: 0.381203
+Processing: 0.444737
+Processing: 0.508271
+Processing: 0.571805
+Processing: 0.635339
+Processing: 0.698872
+Processing: 0.762406
+Processing: 0.82594
+Processing: 0.889474
+Processing: 0.953008
+Processing /isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/QCD_Pt_2017/QCD_Pt_800to1000_TuneCP5_13TeV_pythia8/QCD_Pt_800to1000_ext1/201215_152048/0000/nanoskim_19.root
+====== Using 2017/8 HLT set =======
+Processing: 0
+Processing: 0.0584816
+Processing: 0.116963
+Processing: 0.175445
+Processing: 0.233926
+Processing: 0.292408
+Processing: 0.35089
+Processing: 0.409371
+Processing: 0.467853
+Processing: 0.526334
+Processing: 0.584816
+Processing: 0.643297
+Processing: 0.701779
+Processing: 0.760261
+Processing: 0.818742
+Processing: 0.877224
+Processing: 0.935705
+Processing: 0.994187
+1905945 1905207 954658 0 0
+Info in <TCanvas::Print>: png file njet.png has been created
+selectTrijet: Real Time = 104.45 seconds Cpu Time =  31.39 seconds

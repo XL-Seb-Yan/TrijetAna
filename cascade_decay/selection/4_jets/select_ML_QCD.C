@@ -35,7 +35,7 @@
 
 using namespace std;
 
-void select_ML_QCD(const TString samplename="QCD_Pt_300to470_TuneCP5_13TeV_pythia8", 
+void select_ML_QCD(const TString samplename="Res1ToRes2GluTo3Glu_M1-1000_R-0p5", 
 								const TString outputDir="ntuples", 
 								const int nEvents = -1, 
 								const int year = 2017) {
@@ -52,94 +52,70 @@ void select_ML_QCD(const TString samplename="QCD_Pt_300to470_TuneCP5_13TeV_pythi
 	gSystem->mkdir(outputDir,kTRUE);
 	
 	TH1F *h_njet = new TH1F("njet","njet",15,0,15);
+	TH1F *h_dijet_mass = new TH1F("dijet_mass","dijet mass",100,0,3000);
 	
 	// Data Structure for output skimmed files
-	// Single jet
-	float jet_pt_0, jet_eta_0, jet_phi_0, jet_m_0;
-	float jet_pt_1, jet_eta_1, jet_phi_1, jet_m_1;
-	float jet_pt_2, jet_eta_2, jet_phi_2, jet_m_2;
-	// Dijet
-	float jj_m_01, jj_m_02, jj_m_12;
-	float jj_pt_01, jj_pt_02, jj_pt_12;
-	float jj_eta_01, jj_eta_02, jj_eta_12;
-	float jj_dR_01, jj_dR_02, jj_dR_12, jj_dR_min, jj_dR_max;
-	float jj_dEta_01, jj_dEta_02, jj_dEta_12, jj_dEta_min, jj_dEta_max;
-	// Dijet-jet
-	float jj_j_dR_01_2, jj_j_dR_02_1, jj_j_dR_12_0, jj_j_dR_min;
-	float jj_j_dEtaAbs_01_2, jj_j_dEtaAbs_02_1, jj_j_dEtaAbs_12_0, jj_j_dEtaAbs_max;
-	float jj_j_dPhi_01_2, jj_j_dPhi_02_1, jj_j_dPhi_12_0, jj_j_dPhi_min;
+	// Dijet-system
+	float dijet_pt, dijet_eta, dijet_phi, dijet_m, dR_jj, dEta_jj, dPhi_jj, m_jj;
+	// Dijet-single jet
+	float jet_pt_0, jet_eta_0, jet_phi_0, jet_m_0, jet_ptoverm_0;
+	float jet_pt_1, jet_eta_1, jet_phi_1, jet_m_1, jet_ptoverm_1;
+	// Another jet
+	float jet_pt_2, jet_eta_2, jet_phi_2, jet_m_2, jet_ptoverm_2, dR_jj_j, dEta_jj_j, dPhi_jj_j;
 	// System
-	float M_jjj, pt_jjj, eta_jjj, jet_ptoverM_0, jet_ptoverM_1, jet_ptoverM_2, jj_ptoverM_01, jj_ptoverM_02, jj_ptoverM_12, jj_moverM_01, jj_moverM_02, jj_moverM_12;	   
+	float M_jjj, jet_ptoverM_0, jet_ptoverM_1, jet_ptoverM_2, dijet_ptoverM, dR_j0j2, dEta_j0j2, dPhi_j0j2, dR_j1j2, dEta_j1j2, dPhi_j1j2;	   
+	// Dijet in rest frame (use third jet to boost back)
+	float dijet_res_dPt, dijet_res_dPhi, dijet_res_dEta;
 	// GEN matching
 	int gen_dijet_matched;
+	float gen_dijet_matched_mass;
 	// evt info
 	UInt_t run_num;
 	ULong64_t evt_num;
-	int lumi_block;  		  
+	int lumi_block;  				  
 	
 	TString outfilename = outputDir + TString("/") + samplename + TString("_ML_study.root");
 	TFile *outFile = new TFile(outfilename,"RECREATE"); 
 	TTree *outTree = new TTree("Events","Events");
+	outTree->Branch("dijet_pt",       &dijet_pt);
+	outTree->Branch("dijet_eta",      &dijet_eta);
+	outTree->Branch("dijet_phi",      &dijet_phi);
+	outTree->Branch("dR_jj",          &dR_jj);
+	outTree->Branch("dEta_jj",        &dEta_jj);
+	outTree->Branch("dPhi_jj",        &dPhi_jj);
+	outTree->Branch("m_jj",           &m_jj);
 	outTree->Branch("jet_pt_0",       &jet_pt_0);
 	outTree->Branch("jet_eta_0",      &jet_eta_0);
 	outTree->Branch("jet_phi_0",      &jet_phi_0);
+	outTree->Branch("dR_j0j2",        &dR_j0j2);
+	outTree->Branch("dEta_j0j2",      &dEta_j0j2);
+	outTree->Branch("dPhi_j0j2",      &dPhi_j0j2);
+	outTree->Branch("dR_j1j2",        &dR_j1j2);
+	outTree->Branch("dEta_j1j2",      &dEta_j1j2);
+	outTree->Branch("dPhi_j1j2",      &dPhi_j1j2);
 	outTree->Branch("jet_m_0",        &jet_m_0);
+	outTree->Branch("jet_ptoverm_0",  &jet_ptoverm_0);
 	outTree->Branch("jet_pt_1",       &jet_pt_1);
 	outTree->Branch("jet_eta_1",      &jet_eta_1);
 	outTree->Branch("jet_phi_1",      &jet_phi_1);
 	outTree->Branch("jet_m_1",        &jet_m_1);
+	outTree->Branch("jet_ptoverm_1",  &jet_ptoverm_1);
 	outTree->Branch("jet_pt_2",       &jet_pt_2);
 	outTree->Branch("jet_eta_2",      &jet_eta_2);
 	outTree->Branch("jet_phi_2",      &jet_phi_2);
 	outTree->Branch("jet_m_2",        &jet_m_2);
-	
-	outTree->Branch("jj_m_01",        &jj_m_01);
-	outTree->Branch("jj_m_02",        &jj_m_02);
-	outTree->Branch("jj_m_12",        &jj_m_12);
-	outTree->Branch("jj_pt_01",       &jj_pt_01);
-	outTree->Branch("jj_pt_02",       &jj_pt_02);
-	outTree->Branch("jj_pt_12",       &jj_pt_12);
-	outTree->Branch("jj_eta_01",      &jj_eta_01);
-	outTree->Branch("jj_eta_02",      &jj_eta_02);
-	outTree->Branch("jj_eta_12",      &jj_eta_12);
-	outTree->Branch("jj_dR_01",       &jj_dR_01);
-	outTree->Branch("jj_dR_02",       &jj_dR_02);
-	outTree->Branch("jj_dR_12",       &jj_dR_12);
-	outTree->Branch("jj_dR_max",      &jj_dR_max);
-	outTree->Branch("jj_dR_min",      &jj_dR_min);
-	outTree->Branch("jj_dEta_01",     &jj_dEta_01);
-	outTree->Branch("jj_dEta_02",     &jj_dEta_02);
-	outTree->Branch("jj_dEta_12",     &jj_dEta_12);
-	outTree->Branch("jj_dEta_max",    &jj_dEta_max);
-	outTree->Branch("jj_dEta_min",    &jj_dEta_min);
-	
-	outTree->Branch("jj_j_dR_01_2",   &jj_j_dR_01_2);
-	outTree->Branch("jj_j_dR_02_1",   &jj_j_dR_02_1);
-	outTree->Branch("jj_j_dR_12_0",   &jj_j_dR_12_0);
-	outTree->Branch("jj_j_dR_min",   &jj_j_dR_min);
-	outTree->Branch("jj_j_dEtaAbs_01_2",   &jj_j_dEtaAbs_01_2);
-	outTree->Branch("jj_j_dEtaAbs_02_1",   &jj_j_dEtaAbs_02_1);
-	outTree->Branch("jj_j_dEtaAbs_12_0",   &jj_j_dEtaAbs_12_0);
-	outTree->Branch("jj_j_dEtaAbs_max",   &jj_j_dEtaAbs_max);
-	outTree->Branch("jj_j_dPhi_01_2",   &jj_j_dPhi_01_2);
-	outTree->Branch("jj_j_dPhi_02_1",   &jj_j_dPhi_02_1);
-	outTree->Branch("jj_j_dPhi_12_0",   &jj_j_dPhi_12_0);
-	outTree->Branch("jj_j_dPhi_min",   &jj_j_dPhi_min);
-	
+	outTree->Branch("jet_ptoverm_2",  &jet_ptoverm_2);
+	outTree->Branch("dR_jj_j",        &dR_jj_j);
+	outTree->Branch("dEta_jj_j",      &dEta_jj_j);
+	outTree->Branch("dPhi_jj_j",      &dPhi_jj_j);
 	outTree->Branch("M_jjj",          &M_jjj);
-	outTree->Branch("pt_jjj",         &pt_jjj);
-	outTree->Branch("eta_jjj",        &eta_jjj);
 	outTree->Branch("jet_ptoverM_0",  &jet_ptoverM_0);
 	outTree->Branch("jet_ptoverM_1",  &jet_ptoverM_1);
 	outTree->Branch("jet_ptoverM_2",  &jet_ptoverM_2);
-	outTree->Branch("jj_ptoverM_01",  &jj_ptoverM_01);
-	outTree->Branch("jj_ptoverM_02",  &jj_ptoverM_02);
-	outTree->Branch("jj_ptoverM_12",  &jj_ptoverM_12);
-	outTree->Branch("jj_moverM_01",   &jj_moverM_01);
-	outTree->Branch("jj_moverM_02",   &jj_moverM_02);
-	outTree->Branch("jj_moverM_12",   &jj_moverM_12);
-	
-	outTree->Branch("gen_dijet_matched",   &gen_dijet_matched);
+	outTree->Branch("dijet_ptoverM",  &dijet_ptoverM);
+	outTree->Branch("dijet_res_dPt",  &dijet_res_dPt);
+	outTree->Branch("dijet_res_dEta",  &dijet_res_dEta);
+	outTree->Branch("dijet_res_dPhi",  &dijet_res_dPhi);
 	outTree->Branch("run_num",        &run_num);
 	outTree->Branch("evt_num",        &evt_num);
 	outTree->Branch("lumi_block",     &lumi_block);
@@ -225,9 +201,7 @@ void select_ML_QCD(const TString samplename="QCD_Pt_300to470_TuneCP5_13TeV_pythi
 		fReader.SetTree(eventTree);
 		
 		for(UInt_t ientry=0; ientry<eventTree->GetEntries(); ientry++){
-			if(ientry % 50000 == 0)
-				cout<<"Processing: "<<float(ientry) / eventTree->GetEntries()<<endl;
-		//for(UInt_t ientry=0; ientry<100; ientry++){
+		//for(UInt_t ientry=0; ientry<3; ientry++){
 			count0++;
 			fReader.SetLocalEntry(ientry);
 			
@@ -254,8 +228,8 @@ void select_ML_QCD(const TString samplename="QCD_Pt_300to470_TuneCP5_13TeV_pythi
 			if (!passHLT) continue;
 			count1++;
 			
-			// Jet skimming
-			std::vector<int> j_sel_index_arr; //store the true indices of RECO jets selected
+			// Select trijet
+			std::vector<int> j_sel_index_arr; //store the indices of RECO jets selected
 			std::vector<TLorentzVector> j_sel_arr;
 			for(UInt_t i=0; i<*nJet; i++){
 				if(Jet_pt[i] < 100) continue;
@@ -265,90 +239,92 @@ void select_ML_QCD(const TString samplename="QCD_Pt_300to470_TuneCP5_13TeV_pythi
 				vj.SetPtEtaPhiM(Jet_pt[i], Jet_eta[i], Jet_phi[i], Jet_mass[i]);
 				j_sel_index_arr.push_back(i);
 				j_sel_arr.push_back(vj);
+				if(j_sel_arr.size() == 4)
+					break;
 			}
 			h_njet->Fill(j_sel_index_arr.size());
-			if(j_sel_index_arr.size() < 3) continue;
-			count2++;
+			if(j_sel_index_arr.size() < 4) continue;
+			
+			// making trijet from the selected jets, 0,1 are assumed to be coming from Res2 when 2 comes from Res1
+			int index_j0[12]={0,0,0,0,0,0,1,1,1,1,2,2}; 
+			int index_j1[12]={1,1,2,2,3,3,2,2,3,3,3,3}; 
+			int index_j2[12]={2,3,1,3,1,2,0,3,0,2,0,1};
+			
+			for(int i=0; i<12; i++){
+				int j0 = index_j0[i]; 
+				int j1 = index_j1[i]; 
+				int j2 = index_j2[i];
+				
+				M_jjj = (j_sel_arr[j0] + j_sel_arr[j1] + j_sel_arr[j2]).M();
+				
+				// Get the info on each of the trijet
+				jet_pt_0  = j_sel_arr[j0].Pt();
+				jet_eta_0 = j_sel_arr[j0].Eta();
+				jet_phi_0 = j_sel_arr[j0].Phi();
+				jet_m_0   = j_sel_arr[j0].M();
+				jet_pt_1  = j_sel_arr[j1].Pt();
+				jet_eta_1 = j_sel_arr[j1].Eta();
+				jet_phi_1 = j_sel_arr[j1].Phi();
+				jet_m_1   = j_sel_arr[j1].M();
+				jet_pt_2  = j_sel_arr[j2].Pt();
+				jet_eta_2 = j_sel_arr[j2].Eta();
+				jet_phi_2 = j_sel_arr[j2].Phi();
+				jet_m_2   = j_sel_arr[j2].M();
+				
+				jet_ptoverM_0 = jet_pt_0 / M_jjj;
+				jet_ptoverM_1 = jet_pt_1 / M_jjj;
+				jet_ptoverM_2 = jet_pt_2 / M_jjj;
+				
+				TLorentzVector dijet; // Here we use the 1st and 2nd jets to make the dijet, NOTE, it is not necessarily the correct paring
+				dijet = (j_sel_arr[j0] + j_sel_arr[j1]);
+				dijet_pt = dijet.Pt();
+				dijet_eta = dijet.Eta();
+				dijet_phi = dijet.Phi();
+				m_jj = dijet.M();
+				jet_ptoverm_0 = jet_pt_0 / m_jj;
+				jet_ptoverm_1 = jet_pt_1 / m_jj;
+				jet_ptoverm_2 = jet_pt_2 / m_jj;
+				dR_jj = j_sel_arr[j0].DeltaR(j_sel_arr[j1]);
+				dEta_jj = abs(jet_eta_0 - jet_eta_1);
+				dPhi_jj = abs(jet_phi_0 - jet_phi_1) <= TMath::Pi() ? abs(jet_phi_0 - jet_phi_1) : 2*TMath::Pi()-abs(jet_phi_0 - jet_phi_1);
+				dR_jj_j = (j_sel_arr[j0] + j_sel_arr[j1]).DeltaR(j_sel_arr[j2]);
+				dEta_jj_j = abs((j_sel_arr[j0] + j_sel_arr[j1]).Eta() - j_sel_arr[j2].Eta());
+				dPhi_jj_j = abs((j_sel_arr[j0] + j_sel_arr[j1]).Phi() - j_sel_arr[j2].Phi()) <= TMath::Pi() ? abs((j_sel_arr[j0] + j_sel_arr[j1]).Phi() - j_sel_arr[j2].Phi()) : 2*TMath::Pi()-abs((j_sel_arr[j0] + j_sel_arr[j1]).Phi() - j_sel_arr[j2].Phi());
+				dijet_ptoverM = dijet_pt / M_jjj;
+				
+				dR_j0j2 = j_sel_arr[j0].DeltaR(j_sel_arr[j2]);
+				dEta_j0j2 = abs(jet_eta_0 - jet_eta_2);
+				dPhi_j0j2 = abs(jet_phi_0 - jet_phi_2) <= TMath::Pi() ? abs(jet_phi_0 - jet_phi_2) : 2*TMath::Pi()-abs(jet_phi_0 - jet_phi_2);
+				dR_j1j2 = j_sel_arr[j1].DeltaR(j_sel_arr[j2]);
+				dEta_j1j2 = abs(jet_eta_1 - jet_eta_2);
+				dPhi_j1j2 = abs(jet_phi_1 - jet_phi_2) <= TMath::Pi() ? abs(jet_phi_1 - jet_phi_2) : 2*TMath::Pi()-abs(jet_phi_1 - jet_phi_2);
+				
+				TLorentzVector dijet_res_j0, dijet_res_j1;
+				dijet_res_j0 = j_sel_arr[j0];
+				dijet_res_j1 = j_sel_arr[j1];
+				dijet_res_j0.Boost(j_sel_arr[j2].BoostVector());
+				dijet_res_j1.Boost(j_sel_arr[j2].BoostVector());
+				dijet_res_dPt = abs(dijet_res_j0.Pt() - dijet_res_j1.Pt());
+				dijet_res_dEta = abs(dijet_res_j0.Eta() - dijet_res_j1.Eta());
+				dijet_res_dPhi = abs(dijet_res_j0.Phi() - dijet_res_j1.Phi());
 
-			// Get the info on each of the trijet
-			jet_pt_0  = j_sel_arr[0].Pt();
-			jet_eta_0 = j_sel_arr[0].Eta();
-			jet_phi_0 = j_sel_arr[0].Phi();
-			jet_m_0   = j_sel_arr[0].M();
-			jet_pt_1  = j_sel_arr[1].Pt();
-			jet_eta_1 = j_sel_arr[1].Eta();
-			jet_phi_1 = j_sel_arr[1].Phi();
-			jet_m_1   = j_sel_arr[1].M();
-			jet_pt_2  = j_sel_arr[2].Pt();
-			jet_eta_2 = j_sel_arr[2].Eta();
-			jet_phi_2 = j_sel_arr[2].Phi();
-			jet_m_2   = j_sel_arr[2].M();
-			
-			jj_m_01 = (j_sel_arr[0]+j_sel_arr[1]).M();
-			jj_m_02 = (j_sel_arr[0]+j_sel_arr[2]).M();
-			jj_m_12 = (j_sel_arr[1]+j_sel_arr[2]).M();
-			jj_pt_01 = (j_sel_arr[0]+j_sel_arr[1]).Pt();
-			jj_pt_02 = (j_sel_arr[0]+j_sel_arr[2]).Pt();
-			jj_pt_12 = (j_sel_arr[1]+j_sel_arr[2]).Pt();
-			jj_eta_01 = (j_sel_arr[0]+j_sel_arr[1]).Eta();
-			jj_eta_02 = (j_sel_arr[0]+j_sel_arr[2]).Eta();
-			jj_eta_12 = (j_sel_arr[1]+j_sel_arr[2]).Eta();
-			std::vector<float> jj_dR;
-			jj_dR_01 = j_sel_arr[0].DeltaR(j_sel_arr[1]); jj_dR.push_back(jj_dR_01);
-			jj_dR_02 = j_sel_arr[0].DeltaR(j_sel_arr[2]); jj_dR.push_back(jj_dR_02);
-			jj_dR_12 = j_sel_arr[1].DeltaR(j_sel_arr[2]); jj_dR.push_back(jj_dR_12);
-			jj_dR_min = TMath::MinElement(3, &jj_dR[0]);
-			jj_dR_max = TMath::MaxElement(3, &jj_dR[0]);
-			std::vector<float> jj_dEta;
-			jj_dEta_01 = abs(jet_eta_0 - jet_eta_1); jj_dEta.push_back(jj_dEta_01);
-			jj_dEta_02 = abs(jet_eta_0 - jet_eta_2); jj_dEta.push_back(jj_dEta_02);
-			jj_dEta_12 = abs(jet_eta_1 - jet_eta_2); jj_dEta.push_back(jj_dEta_12);
-			jj_dEta_min = TMath::MinElement(3, &jj_dEta[0]);
-			jj_dEta_max = TMath::MaxElement(3, &jj_dEta[0]);
-			std::vector<float> jj_j_dR;
-			jj_j_dR_01_2 = (j_sel_arr[0]+j_sel_arr[1]).DeltaR(j_sel_arr[2]); jj_j_dR.push_back(jj_j_dR_01_2);
-			jj_j_dR_02_1 = (j_sel_arr[0]+j_sel_arr[2]).DeltaR(j_sel_arr[1]); jj_j_dR.push_back(jj_j_dR_02_1);
-			jj_j_dR_12_0 = (j_sel_arr[1]+j_sel_arr[2]).DeltaR(j_sel_arr[0]); jj_j_dR.push_back(jj_j_dR_12_0);
-			jj_j_dR_min = TMath::MinElement(3, &jj_j_dR[0]);
-			std::vector<float> jj_j_dEtaAbs;
-			jj_j_dEtaAbs_01_2 = abs(jj_eta_01 - jet_eta_2); jj_j_dEtaAbs.push_back(jj_j_dEtaAbs_01_2);
-			jj_j_dEtaAbs_02_1 = abs(jj_eta_02 - jet_eta_1); jj_j_dEtaAbs.push_back(jj_j_dEtaAbs_02_1);
-			jj_j_dEtaAbs_12_0 = abs(jj_eta_12 - jet_eta_0); jj_j_dEtaAbs.push_back(jj_j_dEtaAbs_12_0);
-			jj_j_dEtaAbs_max = TMath::MaxElement(3, &jj_j_dEtaAbs[0]);
-			std::vector<float> jj_j_dPhi;
-			float jj_phi = (j_sel_arr[0]+j_sel_arr[1]).Phi();
-			jj_j_dPhi_01_2 = abs(jj_phi - jet_phi_2) <= TMath::Pi() ? abs(jj_phi - jet_phi_2) : 2*TMath::Pi()-abs(jj_phi - jet_phi_2); jj_j_dPhi.push_back(jj_j_dPhi_01_2);
-			jj_phi = (j_sel_arr[0]+j_sel_arr[2]).Phi();
-			jj_j_dPhi_02_1 = abs(jj_phi - jet_phi_1) <= TMath::Pi() ? abs(jj_phi - jet_phi_1) : 2*TMath::Pi()-abs(jj_phi - jet_phi_1); jj_j_dPhi.push_back(jj_j_dPhi_02_1);
-			jj_phi = (j_sel_arr[1]+j_sel_arr[2]).Phi();
-			jj_j_dPhi_12_0 = abs(jj_phi - jet_phi_0) <= TMath::Pi() ? abs(jj_phi - jet_phi_0) : 2*TMath::Pi()-abs(jj_phi - jet_phi_0); jj_j_dPhi.push_back(jj_j_dPhi_12_0);
-			jj_j_dPhi_min = TMath::MinElement(3, &jj_j_dPhi[0]);
-
-			M_jjj = (j_sel_arr[0] + j_sel_arr[1] + j_sel_arr[2]).M();
-			pt_jjj = (j_sel_arr[0] + j_sel_arr[1] + j_sel_arr[2]).Pt();
-			eta_jjj = (j_sel_arr[0] + j_sel_arr[1] + j_sel_arr[2]).Eta();
-			jet_ptoverM_0 = jet_pt_0 / M_jjj;
-			jet_ptoverM_1 = jet_pt_1 / M_jjj;
-			jet_ptoverM_2 = jet_pt_2 / M_jjj;
-			jj_ptoverM_01 = jj_pt_01 / M_jjj;
-			jj_ptoverM_02 = jj_pt_02 / M_jjj;
-			jj_ptoverM_12 = jj_pt_12 / M_jjj;
-			jj_moverM_01 = jj_m_01 / M_jjj;
-			jj_moverM_02 = jj_m_02 / M_jjj;
-			jj_moverM_12 = jj_m_12 / M_jjj;
-			
-			outTree->Fill();
-			
+				outTree->Fill();
+			}
 			//cout<<"------------------------"<<endl;
 		}// End of event loop
 		eventTree = 0;
 		infile->Close();
 	}// End of file loop
-	cout<<count0<<" "<<count1<<" "<<count2<<" "<<count3<<" "<<count4<<endl;
+	cout<<count0<<" "<<count1<<" "<<count2<<endl;
 	insample.close();
 	outFile->cd();
 	outFile->Write();
 	outFile->Close();
+	
+	TCanvas *c0 = new TCanvas("","",1200,900);
+	c0->cd();
+	h_dijet_mass->Draw();
+	c0->Print("dijet_m.png");
 	
 	TCanvas *c1 = new TCanvas("","",1200,900);
 	c1->cd();

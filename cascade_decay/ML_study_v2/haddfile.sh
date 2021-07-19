@@ -1,0 +1,15 @@
+#!/bin/sh
+
+hadd QCD_Pt_300to470_BDT_Ranking.root QCD_Pt_300to470_BDT_Ranking_*
+hadd QCD_Pt_470to600_BDT_Ranking.root QCD_Pt_470to600_BDT_Ranking*
+hadd QCD_Pt_600to800_BDT_Ranking.root QCD_Pt_600to800_BDT_Ranking*
+hadd QCD_Pt_800to1000_BDT_Ranking.root QCD_Pt_800to1000_BDT_Ranking*
+hadd QCD_Pt_1000to1400_BDT_Ranking.root QCD_Pt_1000to1400_BDT_Ranking*
+hadd QCD_Pt_1400to1800_BDT_Ranking.root QCD_Pt_1400to1800_BDT_Ranking*
+hadd QCD_Pt_1800to2400_BDT_Ranking.root QCD_Pt_1800to2400_BDT_Ranking*
+hadd QCD_Pt_2400to3200_BDT_Ranking.root QCD_Pt_2400to3200_BDT_Ranking*
+hadd QCD_Pt_3200toInf_BDT_Ranking.root QCD_Pt_3200toInf_BDT_Ranking*
+
+hadd Res1ToRes2GluTo3Glu_M1-3000_R-0p7_BDT_Weighting.root Res1ToRes2GluTo3Glu_M1-3000_R-0p7_BDT_Weighting*
+hadd Res1ToRes2GluTo3Glu_M1-5000_R-0p7_BDT_Weighting.root Res1ToRes2GluTo3Glu_M1-5000_R-0p7_BDT_Weighting*
+hadd Res1ToRes2GluTo3Glu_M1-7000_R-0p7_BDT_Weighting.root Res1ToRes2GluTo3Glu_M1-7000_R-0p7_BDT_Weighting*

@@ -17,12 +17,18 @@ import numpy as np
 from IPython.display import display
 import ROOT
 
+def readfiles(subsample, year):
+    filelist = []
+    inputfile = open(f'filelists/{year}_{subsample}.txt', 'r')
+    for line in inputfile.readlines():
+        filelist.append(line.rstrip('\n'))
+    return filelist
+
 if __name__ == "__main__":
 
     sys.path.append("/home/xyan13/Trijet/TrijetAna")
 
-    from TrijetAna.filelists.filelists import filelist
-    from TrijetAna.filelists.samplenames import samples
+    from TrijetAna.filelists.listsamples import samples
     import argparse
     parser = argparse.ArgumentParser(description="Make histograms for Trijet data")
     
@@ -30,7 +36,6 @@ if __name__ == "__main__":
     input_group.add_argument("--subsamples", "-d", type=str, help="List of subsamples to run (comma-separated)")
     input_group.add_argument("--allsamples", "-a", type=str, help="Run all subsamples of the given sample (comma-separated)")
     input_group.add_argument("--test", "-t", action="store_true", help="Run a small test job")
-    parser.add_argument("--quicktest", "-q", action="store_true", help="Run a small test job on selected dataset")
     parser.add_argument("--year", "-y", type=str, help="Year: 2016, 2017, or 2018")
     parser.add_argument("--isMC", "-m", action="store_true", help="Set run over MC instead of collision data")
     args = parser.parse_args()
@@ -39,7 +44,7 @@ if __name__ == "__main__":
 
     if args.test:
         year = "2017"
-        samples2process = ["Res1ToRes2GluTo3Glu_M1-3000_R-0p5"]
+        samples2process += samples[year]["ZprimeTo3Gluon"]
         isMC = True
     elif args.allsamples:
         year = args.year
@@ -67,28 +72,22 @@ if __name__ == "__main__":
     # Make dictionary of subsample : [files to run]
     subsample_files = {}
     for subsample_name in samples2process:
-        if not subsample_name in filelist[year]:
-            raise ValueError(f"Dataset {subsample_name} not in dictionary.")
         # Drop some abundant QCD MC files
         if "QCD_Pt_600to800" in subsample_name:
-            subsample_files[subsample_name] = filelist[year][subsample_name][:13]
+            subsample_files[subsample_name] = readfiles(subsample_name, args.year)[:13]
         elif "QCD_Pt_800to1000" in subsample_name:
-            subsample_files[subsample_name] = filelist[year][subsample_name][:3]
-        elif "QCD_Pt_300to470" in subsample_name:
-            subsample_files[subsample_name] = filelist[year][subsample_name]
-        elif "QCD_Pt_470to600" in subsample_name:
-            subsample_files[subsample_name] = filelist[year][subsample_name]
-        elif "QCD_Pt_" in subsample_name:
-            subsample_files[subsample_name] = filelist[year][subsample_name][:1]
+            subsample_files[subsample_name] = readfiles(subsample_name, args.year)[:3]
         else:
-            subsample_files[subsample_name] = filelist[year][subsample_name]
+            subsample_files[subsample_name] = readfiles(subsample_name, args.year)
 
-        if args.quicktest or args.test:
-            subsample_files[subsample_name] = subsample_files[subsample_name][:1]
+        if args.test:
+            subsample_files[subsample_name] = readfiles(subsample_name, args.year)[:1]
 
     for key in subsample_files.keys():
         size = len(subsample_files[key])
         print(f"For {key}, {size} file(s) will be processed")
+    
+    print(subsample_files)
     
     for sample, files in subsample_files.items():
         nEvents = -1
@@ -120,11 +119,10 @@ if __name__ == "__main__":
         f.close()
         print(sample, total_events, trig_events, sel_events)
         
-        # R1M_str = sample.split("_")[1].split("-")[1]
-        # rho_str = sample.split("_")[2].split("p")[1]
-        # rho = float(rho_str) * 0.1
-        if "QCD" in sample:
-            os.system(r"root -l -q -b -x selection/3_jets/select_ML_QCD.C+\(\"" + sample + r"\"," + r"\"outputs_temp\"," + str(nEvents) + "," + str(year) + "\)")
-        else:
-            os.system(r"root -l -q -b -x selection/3_jets/select_ML_Fullmatch.C+\(\"" + sample + r"\"," + r"\"outputs_temp\"," + str(nEvents) + "," + str(year) + "\)")
-        os.system(f"rm {sample}.txt")
+        # if "QCD" in sample:
+            # os.system(r"root -l -q -b -x selection/3_jets/select_ML_QCD.C+\(\"" + sample + r"\"," + r"\"outputs_temp\"," + str(nEvents) + "," + str(year) + "\) 2>&1 | tee " + f"{sample}.log")
+        # else:
+            # os.system(r"root -l -q -b -x selection/3_jets/select_ML_Fullmatch.C+\(\"" + sample + r"\"," + r"\"outputs_temp\"," + str(nEvents) + "," + str(year) + "\) 2>&1 | tee " + f"{sample}.log")
+        # os.system(f"rm {sample}.txt")
+        
+        os.system(r"root -l -q -b -x selection/EffHLT/HLTEff.C+\(\"" + sample + r"\"," + r"\"outputs_temp\"," + str(nEvents) + "," + str(year) + "\) 2>&1 | tee " + f"{sample}.log")

@@ -1,0 +1,11 @@
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_8.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_3.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_10.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_1.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_4.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_2.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_5.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_9.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_11.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_6.root
+/isilon/hadoop/store/user/dryu/DijetSkim/v2_0_7/JetHT2017/JetHT/JetHT_Run2017D/201215_153548/0000/nanoskim_7.root
